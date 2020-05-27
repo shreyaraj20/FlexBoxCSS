@@ -1,4 +1,4 @@
-	@media(min-width:768px){
+		 
 										.container-1{
 							/*display:flex;
 							align-items:flex-start;
@@ -11,6 +11,8 @@
 								justify-content:center;
 								justify-content:space-between;*/
 								justify-content:space-around;
+								 
+								flex-wrap: wrap;
 							}
 							
 							.container-2{
@@ -20,12 +22,13 @@
 								justify-content:center;
 								justify-content:space-between;*/
 								justify-content:space-around;
-							}}
+								flex-wrap: wrap;
+							}
+							  
 							
 						
 							header{
 								background:blue;
-								height:60px;
 								color:white;
 								text-align:center;
 								margin:10px;
@@ -37,17 +40,15 @@
 								text-align:center;
 								font-size:30px;
 							}
-							
-							
-							
+						
 							header h2{
 								 font-size:35px;
 							}
 							
 							.container-3{
 									display:flex;
-									flex-wraps:wraps;
-									justify-content:space-between;
+									flex-wrap:wrap;
+									justify-content:space-around;
 							}
 							
 							.container-1 div,.container-2 div,.container-3 div{
